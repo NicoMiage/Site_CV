@@ -1,0 +1,36 @@
+body {
+	background-color: #9E9E9E;
+	font-family: 'Lato', sans-serif;
+}
+
+#nom {
+	margin-top: 1%;
+}
+
+#presentation {
+	margin-top: 30%;
+}
+
+#skills {
+	font-size: 100%;
+}
+
+.collection {
+	border: 0px !important;
+}
+
+.collection > li {
+	border-color: gray !important;
+}
+
+.card-action {
+	height: 1% !important;
+}
+
+#pres {
+	margin-top: 4%;
+}
+
+#logo-container {
+	cursor: context-menu;
+}
