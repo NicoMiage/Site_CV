@@ -24,7 +24,8 @@ body {
 }
 
 .card-action {
-	height: 1% !important;
+	position: fixed;
+	bottom: 0;
 }
 
 #pres {
@@ -33,4 +34,32 @@ body {
 
 #logo-container {
 	cursor: context-menu;
+}
+
+.background {
+	overflow: hidden;
+	max-height: 200px;
+}
+
+.brand-logo {
+	margin-left: 1%;
+	cursor: context-menu;
+}
+
+nav {
+	background-color:  	#4d597a;
+}
+
+#contact {
+	background-color:#152459;
+}
+
+.icon-javascript, .icon-html5-alt, .icon-nodejs, .icon-css3-alt, .icon-mysql, .icon-jquery, .icon-php-alt, #mongo, .icon-bootstrap {
+	font-size: 4em;
+	color: gray;
+	margin-right: 4%;
+}
+
+.icon-javascript {
+	margin-bottom: 1%;
 }
