@@ -1,5 +1,5 @@
 body {
-	background-color: #9E9E9E;
+	background-color: #e9ebee;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -23,11 +23,6 @@ body {
 	border-color: gray !important;
 }
 
-.card-action {
-	position: fixed;
-	bottom: 0;
-}
-
 #pres {
 	margin-top: 4%;
 }
@@ -47,19 +42,69 @@ body {
 }
 
 nav {
-	background-color:  	#4d597a;
+	background-color:#888484;
 }
 
 #contact {
-	background-color:#152459;
+	background-color: #ff0000;
 }
 
-.icon-javascript, .icon-html5-alt, .icon-nodejs, .icon-css3-alt, .icon-mysql, .icon-jquery, .icon-php-alt, #mongo, .icon-bootstrap {
+.icon-javascript, .icon-html5-alt, .icon-nodejs, .icon-css3-alt, .icon-mysql, .icon-jquery, .icon-php-alt, #mongo, .icon-bootstrap, .icon-java-bold {
 	font-size: 4em;
-	color: gray;
-	margin-right: 4%;
+	margin-right: 2%;
+}
+
+.icon-nodejs {
+	margin-left: 3%;
+	color: #8cc84b;
+}
+
+#mongo {
+	color: #519848;
+}
+
+.icon-html5-alt {
+	color: #e44d26;
+}
+
+.icon-css3-alt {
+	color: #264de4;
+}
+
+.icon-php-alt {
+	color: #7f6db5;
+}
+
+.icon-java-bold {
+	color: #2f6db8;
+}
+
+.icon-jquery {
+	color: #1169ad;
+}
+
+.icon-bootstrap {
+	color: #563d7c;
 }
 
 .icon-javascript {
-	margin-bottom: 1%;
+	color: #cece06;
+}
+
+.btn {
+	background-color: #ff0000;
+	bottom: 0;
+}
+
+.btn:hover {
+	background-color: #888484;
+}
+
+#technos > li {
+	display: inline-block;
+	opacity: 0;
+}
+
+.icon-javascript {
+	margin-left: 1%;
 }
