@@ -39,8 +39,8 @@ $(document).ready(function(){
     });
 
     var options = [
-        {selector: '#technos', offset: 0, callback: function() {
-            Materialize.showStaggeredList('#technos');
+        {selector: '.technos', offset: 0, callback: function() {
+            Materialize.showStaggeredList('.technos');
         } },
     ];
     Materialize.scrollFire(options);

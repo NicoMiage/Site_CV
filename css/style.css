@@ -49,34 +49,63 @@ nav {
 	background-color: #ff0000;
 }
 
-.icon-javascript, .icon-html5-alt, .icon-nodejs, .icon-css3-alt, .icon-mysql, .icon-jquery, .icon-php-alt, #mongo, .icon-bootstrap, .icon-java-bold {
+.icon-javascript, .icon-html5-alt, .icon-nodejs, .icon-css3-alt, .icon-mysql, .icon-jquery, .icon-php-alt, #mongo, .icon-bootstrap, .icon-java-bold, .icon-c, .icon-ubuntu {
 	font-size: 4em;
-	margin-right: 2%;
 }
 
 .icon-nodejs {
-	margin-left: 3%;
+	margin-left: 10%;
 	color: #8cc84b;
+}
+
+#nodejs {
+	margin-left: 6%;
 }
 
 #mongo {
 	color: #519848;
+	margin-left: 15%;
+	margin-bottom: 5%;
+}
+
+#mongodb {
+	margin-left: 12%;
 }
 
 .icon-html5-alt {
 	color: #e44d26;
+	margin-left: 25%;
+}
+
+#html5 {
+	margin-left: 23%;
 }
 
 .icon-css3-alt {
 	color: #264de4;
+	margin-left: 55%;
+}
+
+#css3 {
+	margin-left: 62%;
 }
 
 .icon-php-alt {
 	color: #7f6db5;
+	margin-left: 95%;
+}
+
+#php {
+	margin-left: 105%;
 }
 
 .icon-java-bold {
 	color: #2f6db8;
+	margin-left: 115%;
+}
+
+#java {
+	margin-left: 120%;
 }
 
 .icon-jquery {
@@ -85,10 +114,54 @@ nav {
 
 .icon-bootstrap {
 	color: #563d7c;
+	margin-left: 200%;
+}
+
+#bootstrap {
+	margin-left: 197%;
 }
 
 .icon-javascript {
 	color: #cece06;
+	margin-left: 20%;
+}
+
+#js {
+	margin-left: 10%;
+}
+
+.icon-jquery {
+	margin-left: 185%;
+}
+
+#jquery {
+	margin-left: 185%;
+}
+
+.icon-c {
+	color: #f52322;
+	margin-left: 130%;
+}
+
+#c {
+	margin-left: 150%;
+}
+
+.icon-mysql {
+	margin-left: 140%;
+}
+
+#mysql {
+	margin-left: 145%;
+}
+
+.icon-ubuntu {
+	color: #dd4814;
+	margin-left: 250%;
+}
+
+#ubuntu {
+	margin-left: 260%;
 }
 
 .btn {
@@ -100,11 +173,7 @@ nav {
 	background-color: #888484;
 }
 
-#technos > li {
+.technos > li {
 	display: inline-block;
 	opacity: 0;
-}
-
-.icon-javascript {
-	margin-left: 1%;
 }
