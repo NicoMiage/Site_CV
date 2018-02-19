@@ -177,3 +177,9 @@ nav {
 	display: inline-block;
 	opacity: 0;
 }
+
+img {
+	border-radius: 50%;
+	margin: 2% 0 0 2%;
+	position: fixed;
+}
