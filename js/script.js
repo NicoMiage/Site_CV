@@ -21,6 +21,7 @@ $(function() {
 
 $(document).ready(function(){
     $('.modal').modal();
+    $('.slider').slider();
 
     $('#contact').click(function() {
         var name = '&#110;&#105;&#99;&#111;&#108;&#97;&#115;&#46;&#107;&#105;&#114;&#99;&#117;&#110;'

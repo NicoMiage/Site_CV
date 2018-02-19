@@ -178,8 +178,22 @@ nav {
 	opacity: 0;
 }
 
-img {
+#profil {
 	border-radius: 50%;
 	margin: 2% 0 0 2%;
 	position: fixed;
+}
+
+#music {
+	margin-left: -10%;
+	margin-top: -2%;
+	max-width: 500px;
+}
+
+.space {
+	margin-left: 1%;
+}
+
+#cinema {
+	margin-top: 17%;
 }
